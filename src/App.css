@@ -30,7 +30,7 @@ body {
   display: flex;
   list-style:none;
 }
-.list li:nth-child(1) a {
+.list li:nth-child(1) .link {
   font-weight: 700;
   cursor: alias;
 }
@@ -38,7 +38,7 @@ body {
   margin-left: 20px;
   font-size: 14px;
 }
-.list li a {
+.list li .link {
   text-decoration:none;
 }
 .rigth-header {
@@ -543,14 +543,14 @@ h4 {
   margin-left: 0;
   word-break: break-word;
 }
-a {
+.link {
   text-decoration: none;
   cursor: pointer;
   color: #fff;
   font-size: 14px;
   line-height: 20px;
 }
-a:hover {
+.link:hover {
   text-decoration: underline;
 }
 .reparto {
