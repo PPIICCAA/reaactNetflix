@@ -1,10 +1,14 @@
+/*
+
 import series from "./list.js"
 import numberRandom from "./numberRandom.js"
+import videojs from "video.js"
 
 
 // https://www.youtube.com/embed/aiCX7FXaYfo?autoplay=1&mute=1
-/*
+
 function controlVideo(Mute,video) {
+    console.log("h1")
     let Newvideo = videojs(document.getElementById(video), {})
 if (Mute.innerHTML == '<img src="./img/mute.svg">') {
     Newvideo.muted(false)
@@ -44,7 +48,7 @@ else {
     return  
 }
 }, 3000);
-*/
+export default controlVideo
 /*
 const head = document.querySelector(".head")
 const topOfHead = head.offsetTop;
