@@ -6,6 +6,7 @@ import Main from "./pages/home.js"
 import Second from "./pages/serie.js"
 
 
+
 function App() {
   return (
     <BrowserRouter>
